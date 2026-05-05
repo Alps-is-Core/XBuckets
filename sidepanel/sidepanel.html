@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X Buckets — Viewer</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <div class="xb-panel">
+    <!-- Header -->
+    <div class="xb-panel-header">
+      <div class="xb-panel-logo">
+        <div class="xb-panel-logo-icon">𝕏</div>
+        <span class="xb-panel-logo-text">Buckets</span>
+      </div>
+      <div class="xb-panel-search">
+        <svg class="xb-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" id="xb-search" placeholder="Search saved items..." autocomplete="off">
+      </div>
+    </div>
+
+    <!-- Bucket Tabs -->
+    <div class="xb-panel-tabs" id="xb-tabs">
+      <button class="xb-tab xb-tab-active" data-bucket="all">All</button>
+    </div>
+
+    <!-- Items Grid -->
+    <div class="xb-panel-content" id="xb-content">
+      <div class="xb-loading">Loading...</div>
+    </div>
+  </div>
+  <script src="sidepanel.js"></script>
+</body>
+</html>
