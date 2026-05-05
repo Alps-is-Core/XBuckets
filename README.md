@@ -4,7 +4,14 @@
 
 No more losing track of interesting threads or important messages. Just long-press, drag, and drop.
 
-![X Buckets Interface](https://raw.githubusercontent.com/username/XBuckets/main/icons/icon128.png)
+
+
+https://github.com/user-attachments/assets/00478868-dbfe-474d-b963-24ea7ed89b1f
+
+
+
+
+
 
 ## ✨ Features
 
